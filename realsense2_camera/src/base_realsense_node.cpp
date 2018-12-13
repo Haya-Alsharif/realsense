@@ -1510,7 +1510,7 @@ void BaseD400Node::setParam(base_d400_paramsConfig &config, base_depth_param par
     case base_sensors_enabled:
     {
         ROS_DEBUG_STREAM("base_sensors_enabled: " << config.base_sensors_enabled);
-        toggleSensors(config.base_sensors_enabled);
+        //toggleSensors(config.base_sensors_enabled);
         break;
     }
     case base_JSON_file_path:

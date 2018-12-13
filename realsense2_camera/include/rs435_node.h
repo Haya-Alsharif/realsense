@@ -26,6 +26,7 @@ namespace realsense2_camera
         rs435_color_frames_queue_size,
         rs435_color_power_line_frequency,
         rs435_color_auto_exposure_priority,
+        rs435_color_enable_auto_white_balance,
         rs435_param_count
     };
 
